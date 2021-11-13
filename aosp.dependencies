@@ -17,9 +17,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "okta-10/mystic_kernel_sdm660-4.4",
+    "repository":  "F2LX/kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
-    "branch":      "Mystic-4.4"
+    "branch":      "kernel-eas"
   },
   {
     "remote":      "github",
