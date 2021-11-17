@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_tulip.mk
+    $(LOCAL_DIR)/weeb_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_tulip-user \
-    arrow_tulip-userdebug \
-    arrow_tulip-eng
+    weeb_tulip-user \
+    weeb_tulip-userdebug \
+    weeb_tulip-eng
