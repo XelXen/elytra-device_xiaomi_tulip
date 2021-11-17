@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common Weeb Project stuff
 $(call inherit-product, vendor/weeb/build/product/weeb_product.mk)
+WITH_GMS := true
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
