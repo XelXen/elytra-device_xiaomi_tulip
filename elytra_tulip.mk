@@ -26,12 +26,10 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Some common AOSP Properties
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 ALLOW_MISSING_DEPENDENCIES := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Magical Properties
-WITH_GAPPS := true
+USE_GAPPS := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
