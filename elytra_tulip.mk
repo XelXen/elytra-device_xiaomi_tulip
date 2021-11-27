@@ -30,6 +30,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 # Magical Properties
 USE_GAPPS := true
+ELYTRA_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
