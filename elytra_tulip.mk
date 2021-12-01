@@ -27,6 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Some common AOSP Properties
 TARGET_BOOT_ANIMATION_RES := 1080
 ALLOW_MISSING_DEPENDENCIES := true
+TARGET_INCLUDE_WIFI_EXT := true
 
 # Magical Properties
 USE_GAPPS := true
